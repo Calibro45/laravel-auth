@@ -26,4 +26,7 @@ Route::middleware('auth')
     ->prefix('admin')
     ->group(function () {
         Route::get('/home', 'HomeController@index')->name('home');
+
+        //* rotte posts
+        Route::resource('posts', 'PostController');
     });
