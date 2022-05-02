@@ -14,7 +14,9 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        //todo recupera i dati
+
+        // ritorna la vista posts.index
     }
 
     /**
